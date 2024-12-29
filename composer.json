@@ -1,0 +1,19 @@
+{
+    "name": "jvdh/module-daikinssoprocessing",
+    "description": "For daikin osaka magento 2 instance listening to event when using saml login and assigning customergroup in observer",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jvdh\\DaikinSsoProcessing\\": ""
+        }
+    }
+}

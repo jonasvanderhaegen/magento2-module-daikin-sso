@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="foobar_saml_customer_successfully_updated">
+        <observer name="daikinssoprocessing_foobar_saml_customer_successfully_updated" instance="Jvdh\DaikinSsoProcessing\Observer\Saml2CustomerSuccessfullyUpdated"/>
+    </event>
+</config>
