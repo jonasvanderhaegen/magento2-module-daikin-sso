@@ -23,26 +23,6 @@ Since this repository is tailored for simplicity, it only includes the contents 
 3. **Plugins**
    - `Plugin/Controller/Saml2/ACS.php`: Extends the functionality of the ACS (Assertion Consumer Service) controller to assign customer groups based on SAML attributes.
 
-## Installation
-To add this module to a Magento 2 project:
-
-1. Clone the repository into the appropriate location within your Magento project:
-   ```bash
-   git clone <repository_url> app/code/Jvdh/DaikinSsoProcessing
-   ```
-
-2. Run Magento setup commands:
-   ```bash
-   php bin/magento setup:upgrade
-   php bin/magento setup:di:compile
-   php bin/magento cache:flush
-   ```
-
-3. Verify that the module is enabled:
-   ```bash
-   php bin/magento module:status Jvdh_DaikinSsoProcessing
-   ```
-
 ## Configuration
 The module relies on specific configurations and environment variables for seamless operation:
 
